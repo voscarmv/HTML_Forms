@@ -1,0 +1,22 @@
+.header-container{
+  display: none;
+}
+.aside-container{
+  display: none;
+}
+
+
+.nav-container{
+  display: flux;
+  background-color: lightblue;
+}
+.section-container{
+  display: flux;
+  background-color: orange;
+}
+.article-container{
+  background-color: lightgreen;
+}
+.footer-container{
+  background-color: gray;
+}
