@@ -5,18 +5,28 @@
   display: none;
 }
 
+*{
+    margin:0;
+}
 
 .nav-container{
   display: flux;
   background-color: lightblue;
 }
+
 .section-container{
   display: flux;
   background-color: orange;
 }
+
 .article-container{
   background-color: lightgreen;
 }
+
 .footer-container{
   background-color: gray;
+}
+
+.article-header-container{
+  background-color: pink;
 }
