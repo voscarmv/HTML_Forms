@@ -46,7 +46,6 @@ body{
   font-size: 25px;
   padding: 10px 0px;
   color: #4C4C4C;
-
 }
 .form-subtitle{
   text-align: center;
@@ -163,4 +162,8 @@ footer{
 
 .form-submit{
   margin-top: 20px;
+}
+
+.void-heading{
+  display: none;
 }
