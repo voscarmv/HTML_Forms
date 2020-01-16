@@ -1,5 +1,5 @@
 * {
-  font-family: helvetica, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   margin: 0;
 }
 
@@ -7,6 +7,10 @@ input {
   width: 350px;
   height: 27px;
   border: 1px solid #c7c7c7;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header-container {
@@ -49,7 +53,7 @@ body {
 .form-title p {
   text-align: center;
   font-size: 25px;
-  padding: 10px 0px;
+  padding: 10px 0;
   color: #4c4c4c;
 }
 
@@ -92,8 +96,6 @@ body {
   text-align: center;
 }
 
-.article-header-container {}
-
 .form-privacy-statement p {
   text-align: center;
   color: #4c4c4c;
@@ -124,10 +126,6 @@ body {
 .form-password p {
   font-size: 16px;
   text-align: left;
-}
-
-a {
-  text-decoration: none;
 }
 
 .header-title {
