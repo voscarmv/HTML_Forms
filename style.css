@@ -1,5 +1,6 @@
 *{
   font-family:Helvetica,Helvetica,Arial,sans-serif;
+
 }
 .header-container{
   display: none;
@@ -20,13 +21,13 @@ body{
   align-content: space-around;
   padding-top: 20px;
   padding-bottom: 20px;
-  
+
 }
 .signin-button{
   align-self: center;
   padding-right: 40px;
   padding-left: 20px;
-  
+
 }
 .signin-button button{
   height: 35px;
@@ -58,7 +59,7 @@ body{
 
 .inputs-container{
   margin: 0 161px;
- 
+
 }
 .inputs-container p{
   padding-bottom: 7px;
@@ -83,6 +84,12 @@ body{
 
 .forgot-password-link{
   text-align:right;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+a{
+  text-decoration: none;
 }
 
 .header-title{
@@ -90,4 +97,13 @@ body{
 }
 .header-links{
   text-align: center;
+}
+
+.sign-in-button{
+  background: #0077C5 url('./img/login_icon.png') no-repeat center left;
+  padding-left: 35px;
+  padding-right: 20px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 7px;
 }
