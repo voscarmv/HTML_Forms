@@ -1,51 +1,53 @@
+*{
+  font-family:Helvetica,Helvetica,Arial,sans-serif;
+}
 .header-container{
   display: none;
 }
 .aside-container{
   display: none;
 }
-
 *{
     margin:0;
 }
-
 body{
   background-color:  #ECEEF1;
 }
 
 .nav-container{
   display: flex;
-  background-color: #ECEEF1;
   justify-content: flex-end;
   align-content: space-around;
   padding-top: 20px;
   padding-bottom: 20px;
+  
 }
 .signin-button{
   align-self: center;
   padding-right: 40px;
   padding-left: 20px;
+  
 }
 .signin-button button{
   height: 35px;
 }
-
-
 .section-container{
   display: flex;
-  background-color: #ECEEF1;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 .form-title p{
   text-align: center;
+  padding: 10px 0px;
 }
 .form-subtitle{
   text-align: center;
 }
 .form-subtitle a{
   margin: 0 100px;
+  text-decoration: none;
+  font-size: 12px;
 }
 
 .article-container{
@@ -56,6 +58,11 @@ body{
 
 .inputs-container{
   margin: 0 161px;
+ 
+}
+.inputs-container p{
+  padding-bottom: 7px;
+  padding-top: 25px;
 }
 
 .footer-container{
@@ -64,7 +71,6 @@ body{
 }
 
 .article-header-container{
-  background-color: #ECEEF1;
 }
 .form-privacy-statement p{
   text-align: center;
@@ -73,7 +79,6 @@ body{
     text-align:center;
 }
 .form-footer {
-    background-color: #ECEEF1;
 }
 
 .forgot-password-link{
