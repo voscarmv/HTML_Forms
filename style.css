@@ -10,17 +10,41 @@
 }
 
 .nav-container{
-  display: flux;
+  display: flex;
   background-color: lightblue;
+  justify-content: flex-end;
+}
+.signin-button{
+  align-self: center;
+}
+.signin-button button{
+  height: 35px;
 }
 
+
 .section-container{
-  display: flux;
+  display: flex;
   background-color: orange;
+  justify-content: center;
+
+}
+.form-title {
+  margin: 0 150px;
+}
+.form-subtitle{
+  margin: 0 130px;
+}
+.form-subtitle a{
+  margin: 0 100px;
 }
 
 .article-container{
   background-color: lightgreen;
+  max-width: 500px;
+}
+
+.inputs-container{
+  margin: 0 161px;
 }
 
 .footer-container{
@@ -29,4 +53,12 @@
 
 .article-header-container{
   background-color: pink;
+}
+.form-privacy-statement{
+  margin: 0 71px;
+  
+  
+}
+.form-footer{
+    margin: 0 30px;
 }
