@@ -1,16 +1,20 @@
 *{
   font-family:Helvetica,Helvetica,Arial,sans-serif;
-
+  margin:0;
 }
+input{
+  width: 350px;
+  height: 27px;
+  border: 1px solid #C7C7C7;
+}
+
 .header-container{
   display: none;
 }
 .aside-container{
   display: none;
 }
-*{
-    margin:0;
-}
+
 body{
   background-color:  #ECEEF1;
 }
@@ -21,7 +25,6 @@ body{
   align-content: space-around;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 .signin-button{
   align-self: center;
@@ -40,7 +43,10 @@ body{
 }
 .form-title p{
   text-align: center;
+  font-size: 25px;
   padding: 10px 0px;
+  color: #4C4C4C;
+  
 }
 .form-subtitle{
   text-align: center;
@@ -49,25 +55,33 @@ body{
   margin: 0 100px;
   text-decoration: none;
   font-size: 12px;
+  
+}
+.form-subtitle p{
+  color: #4C4C4C;
 }
 
 .article-container{
   border: 1px solid #C7C7C7;
   background-color: white;
   max-width: 500px;
+  margin-bottom: 50px;
 }
 
 .inputs-container{
-  margin: 0 161px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
 .inputs-container p{
   padding-bottom: 7px;
   padding-top: 25px;
+  color: #4C4C4C;
 }
 
 .footer-container{
-  background-color: gray;
+  background-color: #ECEEF1;
   text-align: center;
 }
 
@@ -75,10 +89,17 @@ body{
 }
 .form-privacy-statement p{
   text-align: center;
+  color: #4C4C4C;
+  font-size: 12px;
+  padding-top: 20px;
+  line-height: 1.5;
+  margin: 0 100px;
+  
 }
 .form-footer p{
     text-align:center;
-}
+    color: #4C4C4C;
+  }
 .form-footer {
 }
 
@@ -86,6 +107,16 @@ body{
   text-align:right;
   font-size: 12px;
   line-height: 20px;
+}
+.form-password{
+  color: #4C4C4C;
+  font-size: 10px;
+  line-height: 1.5;
+  text-align: center;
+}
+.form-password p{
+  font-size: 16px;
+  text-align: left;
 }
 
 a{
@@ -98,7 +129,6 @@ a{
 .header-links{
   text-align: center;
 }
-
 .sign-in-button{
   background: #0077C5 url('./img/login_icon.png') no-repeat center left;
   padding-left: 35px;
@@ -106,4 +136,17 @@ a{
   color: white;
   border: 1px solid black;
   border-radius: 7px;
+}
+.legal-privacy-security-links a{
+  color: #4C4C4C;
+}
+footer{
+  color: #4C4C4C;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.form-footer{
+  font-size: 10px;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
