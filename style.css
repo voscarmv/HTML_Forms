@@ -62,9 +62,9 @@ body {
 }
 
 .form-subtitle a {
-  margin: 0 100px;
   text-decoration: none;
   font-size: 12px;
+  color: blue;
 }
 
 .form-subtitle p {
@@ -177,4 +177,21 @@ footer {
 
 .void-heading {
   display: none;
+}
+
+.header-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.header-links div{
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #8d9096;
+}
+
+.form-privacy-statement a {
+  color: blue;
 }
