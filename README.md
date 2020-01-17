@@ -44,7 +44,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used!
-- Thanks to youtube for letting us clone it!
+- Thanks to Intuit for letting us clone it!
 - Thanks to Microverse for the fun project!
 
 ## 📝 License

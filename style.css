@@ -134,6 +134,10 @@ body {
 
 .header-links {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
 }
 
 .sign-in-button {
@@ -177,13 +181,6 @@ footer {
 
 .void-heading {
   display: none;
-}
-
-.header-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-bottom: 15px;
 }
 
 .header-links div {
