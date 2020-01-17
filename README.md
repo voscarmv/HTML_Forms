@@ -11,7 +11,7 @@ A clone of the [Intuit sign-up page](https://wwws.mint.com/login.event?task=S) a
 
 ## Live Demo
 
-Check the GitHack demo [here](https://rawcdn.githack.com/voscarmv/HTML_Forms/ebadfc1d575543022a52ee224c06f9fb6766b79b/index.html)
+Check the GitHack demo [here](https://rawcdn.githack.com/voscarmv/HTML_Forms/ac17f8dfbabab915fb8d58a9e2e80a49b917513c/index.html)
 
 ## Getting Started
 
