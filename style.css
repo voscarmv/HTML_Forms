@@ -179,14 +179,14 @@ footer {
   display: none;
 }
 
-.header-links{
+.header-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 15px;
 }
 
-.header-links div{
+.header-links div {
   font-family: sans-serif;
   font-size: 20px;
   color: #8d9096;
