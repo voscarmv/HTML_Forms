@@ -103,6 +103,7 @@ body {
   padding-top: 20px;
   line-height: 1.5;
   margin: 0 100px;
+  margin-bottom: 20px;
 }
 
 .form-footer p {
@@ -173,6 +174,12 @@ footer {
 .form-footer {
   font-size: 10px;
   padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #eceef1;
+}
+
+.form-footer a {
+  color: blue;
 }
 
 .form-submit {
